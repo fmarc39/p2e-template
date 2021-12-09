@@ -1,11 +1,8 @@
 import React from "react";
+import styles from "../../styles/nbavbar.module.css";
 
 const header = () => {
-  return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default header;
