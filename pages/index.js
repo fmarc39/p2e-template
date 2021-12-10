@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.scss";
 import Navbar from "./navbar";
 import HomePage from "./home";
 import Actus from "./actu";
+import Footer from "./footer";
 import Banner from "../public/banner.jpeg";
 
 export default function Home() {
@@ -20,6 +21,8 @@ export default function Home() {
         <HomePage />
         <Actus />
       </main>
+
+      <Footer />
 
       {/* <footer className={styles.footer}>
         <a

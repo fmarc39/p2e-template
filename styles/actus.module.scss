@@ -1,15 +1,25 @@
 @import './variables.modules.scss';
 
 .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
-
     h1 {
 
         font-size: $xxl;
-        text-shadow: 2px 7px 5px $primary-color, 
-        0px -4px 10px white;
+        text-shadow: 2px 2px 4xpx $primary-color, 
+        0px -2px 5px white;
         color: $third-color;
         text-align: center;
+        display: inline-block;
+        border: 2px solid ;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        padding: $s;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgba(0, 0, 0, 0.075);
     }
 }
 
