@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Navbar from "./navbar";
 import HomePage from "./home";
+import Actus from "./actu";
 import Banner from "../public/banner.jpeg";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <HomePage />
+        <Actus />
       </main>
 
       {/* <footer className={styles.footer}>

@@ -1,0 +1,41 @@
+@import './variables.modules.scss';
+
+.container {
+    
+
+    h1 {
+
+        font-size: $xxl;
+        text-shadow: 2px 7px 5px $primary-color, 
+        0px -4px 10px white;
+        color: $third-color;
+        text-align: center;
+    }
+}
+
+.articleBody {
+    padding: 1rem;
+    h3 {
+        text-shadow: 2px 7px 5px $primary-color, 
+        0px -4px 10px white;
+        color: $third-color;
+        font-size: $xl;
+        text-align: center;
+    }
+}
+
+.actuBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    article {
+        max-width: 300px;
+        background-color: rgba(255, 255, 255, 0.801);
+        margin: $l;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    }
+}
