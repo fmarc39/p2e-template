@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import Navbar from "./navbar";
+import HomePage from "./home";
+import Banner from "../public/banner.jpeg";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navbar />
+        <HomePage />
       </main>
 
       {/* <footer className={styles.footer}>
